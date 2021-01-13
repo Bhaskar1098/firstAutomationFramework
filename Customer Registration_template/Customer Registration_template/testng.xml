@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">-->
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+	<!-- Specify class names,'com.selenium.tests.TestCustomerForm' and 'com.selenium.tests.TestDisplayCustomer' -->
+	<class name="com.selenium.tests.TestDisplayCustomer"/>
+	<class name="com.selenium.tests.TestCustomerForm"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

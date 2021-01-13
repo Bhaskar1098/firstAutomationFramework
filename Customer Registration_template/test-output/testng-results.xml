@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29767" started-at="2021-01-13T12:50:31Z" finished-at="2021-01-13T12:51:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="29767" started-at="2021-01-13T12:50:31Z" finished-at="2021-01-13T12:51:01Z">
+      <class name="com.selenium.tests.TestCustomerForm">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.selenium.tests.TestCustomerForm@1b604f19]" name="setUp" is-config="true" duration-ms="5776" started-at="2021-01-13T18:20:52Z" finished-at="2021-01-13T18:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testInvalidCustomerDetail(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.tests.TestCustomerForm@1b604f19]" name="testInvalidCustomerDetail" duration-ms="1036" started-at="2021-01-13T18:20:58Z" data-provider="customerinvaid" finished-at="2021-01-13T18:20:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test_For_Invalid_CustomerDetails]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[James]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[james12@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidCustomerDetail -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.selenium.tests.TestCustomerForm@1b604f19]" name="closeBrowser" is-config="true" duration-ms="1649" started-at="2021-01-13T18:20:59Z" finished-at="2021-01-13T18:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.selenium.tests.TestCustomerForm -->
+      <class name="com.selenium.tests.TestDisplayCustomer">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.selenium.tests.TestDisplayCustomer@cb5822]" name="setUp" is-config="true" duration-ms="11734" started-at="2021-01-13T18:20:31Z" finished-at="2021-01-13T18:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testValidCustomerDetail(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.tests.TestDisplayCustomer@cb5822]" name="testValidCustomerDetail" duration-ms="6853" started-at="2021-01-13T18:20:44Z" data-provider="customervalid" finished-at="2021-01-13T18:20:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test_For_valid_CustomerDetails]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sri]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Coimbatore]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8012715789]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[madhu@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidCustomerDetail -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.selenium.tests.TestDisplayCustomer@cb5822]" name="closeBrowser" is-config="true" duration-ms="1423" started-at="2021-01-13T18:20:51Z" finished-at="2021-01-13T18:20:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.selenium.tests.TestDisplayCustomer -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
